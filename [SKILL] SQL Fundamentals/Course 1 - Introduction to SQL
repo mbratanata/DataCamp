@@ -1,4 +1,5 @@
-Course 1: Introduction to SQL by Nick Carchedi
+Introduction to SQL 
+By: Nick Carchedi
 
 SQL, which stands for Structured Query Language, is a language for interacting with data stored in something called a relational database.
 A query is a request for data from a database table (or combination of tables).
