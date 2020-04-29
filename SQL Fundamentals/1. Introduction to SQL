@@ -1,0 +1,19 @@
+Course 1: Introduction to SQL by Nick Carchedi
+
+SQL, which stands for Structured Query Language, is a language for interacting with data stored in something called a relational database.
+A query is a request for data from a database table (or combination of tables).
+
+- Keyword: SELECT, FROM, LIMIT, DISTINCT, WHERE, COUNT, AND, OR, AS
+- Clause (a means of filtering the data is not correct): FROM, WHERE, HAVING
+- Operator: IN, LIKE
+- Wildcard (a placeholder for some other values): 
+     % (will match zero, one, or many characters in text)
+     _ (will match a single character)
+    
+HAVING is to filter based on the result of an aggregate function (GROUP BY)
+Example of HAVING usage:
+SELECT department, COUNT(*) AS "Number of employees"
+FROM employees
+WHERE salary > 25000
+GROUP BY department
+HAVING COUNT(*) > 10;
