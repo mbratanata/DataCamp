@@ -12,8 +12,8 @@ A query is a request for data from a database table (or combination of tables).
     
 HAVING is to filter based on the result of an aggregate function (GROUP BY)
 Example of HAVING usage:
-SELECT department, COUNT(*) AS "Number of employees"
-FROM employees
-WHERE salary > 25000
-GROUP BY department
-HAVING COUNT(*) > 10;
+    SELECT department, COUNT(*) AS "Number of employees"
+    FROM employees
+    WHERE salary > 25000
+    GROUP BY department
+    HAVING COUNT(*) > 10;
