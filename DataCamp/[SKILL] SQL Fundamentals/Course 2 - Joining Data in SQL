@@ -9,6 +9,7 @@ Introduction to JOINS:
     - RIGHT JOIN: Returns all records from the right table, and the matched records from the left table
     - FULL JOIN: Returns all records when there is a match in either left or right table
 
+USING is used when both fields have same name. Instead of, ON table1.field = table2.field, you can simply use USING(field) 
 
 
 
